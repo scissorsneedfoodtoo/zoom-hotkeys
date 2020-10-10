@@ -1,12 +1,4 @@
 {
-  "context-menu": {
-    ".CodeMirror": [
-      {
-        "label": "Toggle zoom-hotkeys",
-        "command": "zoom-hotkeys:toggle"
-      }
-    ]
-  },
   "menu": [
     {
       "label": "Plugins",
@@ -15,8 +7,24 @@
           "label": "zoom-hotkeys",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "zoom-hotkeys:toggle"
+              "label": "Zoom In",
+              "command": "zoom-hotkeys:zoomIn"
+            },
+            {
+              "label": "Zoom Out",
+              "command": "zoom-hotkeys:zoomOut"
+            },
+            {
+              "label": "Reset Zoom",
+              "command": "zoom-hotkeys:resetZoom"
+            },
+            {
+              "label": "Increase Font Size",
+              "command": "window:increase-font-size"
+            },
+            {
+              "label": "Decrease Font Size",
+              "command": "window:decrease-font-size"
             }
           ]
         }

@@ -1,5 +1,14 @@
 {
   "body": {
-    "ctrl-alt-o": "zoom-hotkeys:toggle"
+    "ctrl-=": "zoom-hotkeys:zoomIn",
+    "ctrl--": "zoom-hotkeys:zoomOut",
+    "ctrl-shift-=": "window:increase-font-size",
+    "ctrl-shift--": "window:decrease-font-size",
+    "ctrl-0": "zoom-hotkeys:resetZoom",
+    "cmd-=": "zoom-hotkeys:zoomIn",
+    "cmd--": "zoom-hotkeys:zoomOut",
+    "cmd-shift-=": "window:increase-font-size",
+    "cmd-shift--": "window:decrease-font-size",
+    "cmd-0": "zoom-hotkeys:resetZoom"
   }
 }
