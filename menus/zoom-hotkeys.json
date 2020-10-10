@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    ".CodeMirror": [
+      {
+        "label": "Toggle zoom-hotkeys",
+        "command": "zoom-hotkeys:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Plugins",
+      "submenu": [
+        {
+          "label": "zoom-hotkeys",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "zoom-hotkeys:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
