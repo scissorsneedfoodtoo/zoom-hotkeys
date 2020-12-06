@@ -1,7 +1,7 @@
 {
   "name": "zoom-hotkeys",
   "main": "./lib/zoom-hotkeys",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A simple plugin to adjust Inkdrop's UI scaling and font size independently",
   "keywords": [],
   "repository": "https://github.com/scissorsneedfoodtoo/zoom-hotkeys",
